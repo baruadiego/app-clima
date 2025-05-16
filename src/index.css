@@ -1,0 +1,34 @@
+:root {
+  --white : #FFF;
+  --primary: #F59E0B;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('https://wallpapers.com/images/hd/sky-clouds-pictures-hhhf8exrn51umuku.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: var(--white);
+  font-size: 2rem;
+}
+body::before{
+background-color: rgba(0, 0, 0, 0.5);
+content: '';
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
+}
+.modo-noche{
+  background-image: url('https://images.unsplash.com/photo-1533983272060-edb6f56af634?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bnViZXMlMjBkZWwlMjBjaWVsbyUyMG5vY3R1cm5vfGVufDB8fDB8fHww');
+}

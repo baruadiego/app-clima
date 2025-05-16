@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 4rem 0;
+}
+.container{
+    width: 95%;
+    max-width: 100rem;
+    justify-self: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+@media (min-width: 768px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

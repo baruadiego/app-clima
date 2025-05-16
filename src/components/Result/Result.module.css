@@ -1,0 +1,56 @@
+.card{
+    background-image: url('https://media.istockphoto.com/id/182355595/es/foto/cielo-despejado.jpg?s=612x612&w=0&k=20&c=8HkoaO6c8aWvFn9sMgvQ3P5RxOLZFCGj6FrPxE6NZg8=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    padding: 2rem;
+    height: fit-content;
+}
+
+.nightCard{
+    background-image: url('https://img.freepik.com/vector-premium/fondo-estrellas-espaciales_160081-158.jpg');
+}
+
+p{
+    color: whitesmoke;
+}
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.state{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.weather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.temperture{
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 900;
+}
+
+.minmax{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+span{
+    font-weight: 900;
+}
